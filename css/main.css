@@ -2,34 +2,130 @@ body {
     background-image: url();
 }
 
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
 header {
     font-family: 'Londrina Outline', cursive;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding: 2%;
 }
 
 #outercircle {
     border: 10px solid #333333;
-    border-radius: 60%;
-    width: 375px;
-    height: 375px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
     margin: auto;
-    padding: 2%;
-}
-
-#topleft{
+    margin-top: 60px;
 
 }
 
-#topright {
+#topleft {
+    position: absolute;
+    border: 5px solid;
+    background: #8FBC8F;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px 0 0 0;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    box-sizing: border-box;
+    
 
 }
 
-#bottomleft {
+/* #innercircle {
+    border: 10px solid #333333;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    
+  
+} */
+
+.centered {
+    font-family: 'Londrina Outline', cursive;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 35px;
+    margin-top: 40px;
 
 }
 
-#bottomright {
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #333333;
+    top:50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    position: absolute;
+    box-sizing: border-box;
+   
+}
 
+#switches {
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    margin-left: 26px;
+    margin-top: 110px;
+}
+
+.label {
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    margin-left: 19px;
+    margin-top: 142px;
+}
+
+.label span:last-child {
+    padding-left: 70px;
+}
+
+.label2 {
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    margin-left:83px
+    margin-top: 197px;
+}
+
+.button {
+    font-size: 20px;
+    background-color: #D2691E
+    border-radius: 50%;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.toggle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#turn {
+    postion: absolute;
+    background: #333333;
+    color: #990000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 170px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
 }

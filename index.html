@@ -6,29 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simon Game</title>
     <link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script defer src="js/main.js"></script>
 </head>
+
 <body>
-    <header>A Memory Game</header>
+    <div id="wrapper">
+        <header>A Memory Game</header>
 
-    <div id="outercircle">
+            <div id="outercircle">
+                <div id="topleft"></div>
 
-    <div id="topleft">
-        <div class="column"></div>
-        <h2>red</h2>
-    </div>
+                <div id="topright"></div>
 
-    
-    <div id="topright">green</div>
+                <div id="bottomleft"></div>
 
-    <div id="bottomleft">blue</div>
+                <div id="bottomright"></div>
 
-    <div id="bottomright">yellow</div>
+                <div id="innercircle">
+                    <div class="container">
+                        <img class="image" src="https://i.imgur.com/X32z6FA.jpg"
+                        alt="Sid in his mayor outfit!">
+                        <div class="centered">SID!</div>
 
-    <div id="innercircle">
-        <div id="game">SIMON!</div>
-    
+                    </div>
+                    <div id="switches">
+                        <input type="checkbox" class="toggle" id="on">
+                        <button class="button" id="start">Start</button>
+                        <input type="checkbox" class="toggle" id="strict">
+
+                    </div>
+
+                    <div class="label">
+                        <span>POWER</span><span>STRICT</span>
+                    </div>
+
+                    <div id="turn"></div>
+                    
+                    <div class="label2">COUNT</div>
+
+                    
+
+                   
+
+            </div>
+
     </div>
 </body>
 </html>

@@ -8,7 +8,11 @@
 
 
 /*----- cached element references -----*/
+var count=0;
 
+function incrementCount() {
+    count++;
+}
 
 
 
