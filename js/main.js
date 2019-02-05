@@ -7,7 +7,6 @@
 
 
 
-
 /*----- cached element references -----*/
 
 
@@ -23,8 +22,8 @@ function render() {
 	renderHands();
 	renderControls();
 	if (winner) {
-		renderWinnerMessage();
+		renderWinnerMessage("You're a winner!");
 	} else {
-		renderTurnMessage();
+		renderTurnMessage("Try again.");
 	}
 }
