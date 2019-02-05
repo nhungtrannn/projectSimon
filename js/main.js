@@ -22,6 +22,10 @@ function incrementCount() {
 
 
 /*----- functions -----*/
+function myFunction() {
+    document.getElementById("topleft").style.color = "blue";
+}
+
 function render() {
 	renderHands();
 	renderControls();

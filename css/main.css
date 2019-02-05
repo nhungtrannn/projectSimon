@@ -16,7 +16,7 @@ header {
 }
 
 #outercircle {
-    border: 10px solid #333333;
+    border: 10px solid;
     border-radius: 50%;
     width: 500px;
     height: 500px;
@@ -29,7 +29,7 @@ header {
 #topleft {
     position: absolute;
     border: 5px solid;
-    background: #8FBC8F;
+    background: #6495ED;
     height: 250px;
     width: 250px;
     border-radius: 250px 0 0 0;
@@ -38,6 +38,47 @@ header {
     margin: -250px 0px 0px -250px;
     box-sizing: border-box;
     
+
+}
+
+#topright {
+    position: absolute;
+    border: 5px solid;
+    background: #DC143C;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 250px 0 0;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    box-sizing: border-box;
+
+}
+
+#bottomleft {
+    position: absolute;
+    border: 5px solid;
+    background:#2E8B57;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 250px;
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    box-sizing: border-box;
+}
+
+#bottomright {
+    position: absolute;
+    border: 5px solid;
+    background: #FFFF00;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 250px 0;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    box-sizing: border-box;
 
 }
 
@@ -68,7 +109,7 @@ header {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 10px solid #333333;
+    border: 10px solid;
     top:50%;
     left: 50%;
     margin: -125px 0px 0px -125px;
@@ -92,31 +133,31 @@ header {
 }
 
 .label span:last-child {
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 .label2 {
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    margin-left:83px
+    margin-left:90px
     margin-top: 197px;
 }
 
 .button {
     font-size: 20px;
-    background-color: #D2691E
+    background-color: #DCDCDC;
     border-radius: 50%;
     font-family: 'Amatic SC', cursive;
 }
 
 
 .toggle {
-    margin-left: 20px;
+    margin-left: 90px;
     margin-right: 20px;
 }
 
 #turn {
-    postion: absolute;
+    position: absolute;
     background: #333333;
     color: #990000;
     font-family: 'Amatic SC', cursive;
