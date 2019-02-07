@@ -1,11 +1,10 @@
 body {
-    background-image: url();
 }
 
-#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    
 }
 
 header {
@@ -37,11 +36,17 @@ header {
     left: 50%;
     margin: -250px 0px 0px -250px;
     box-sizing: border-box;
-    
-
 }
 
-#topright {
+/* #topleft:hover {
+    box-shadow: 20px 60px 40px 40px #228DFF;
+    border-color: #666 #aaa #bbb #888;
+	border-width:4px 3px 3px 4px;
+	color:#000;
+} */
+
+#topright 
+{
     position: absolute;
     border: 5px solid;
     background: #DC143C;
@@ -100,10 +105,12 @@ header {
     font-family: 'Londrina Outline', cursive;
     position: absolute;
     font-size: 40px;
-    margin-left: 35px;
-    margin-top: 40px;
+    margin-left: 220px;
+    margin-top: 225px;
+    color: white;
 
 }
+
 
 .image {
     width: 250px;
@@ -121,26 +128,32 @@ header {
 #switches {
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    margin-left: 26px;
-    margin-top: 110px;
+    margin-left: 225px;
+    margin-top: 310px;
 }
 
-.label {
+/* .label {
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    margin-left: 19px;
-    margin-top: 142px;
-}
+    margin-left: 180px;
+    margin-top: 330px;
+    color: white;
+} */
 
-.label span:last-child {
+/* .label span:last-child {
     padding-left: 50px;
-}
+      
+} */
 
 .label2 {
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    margin-left:90px
-    margin-top: 197px;
+    font-size: 20px;
+    margin-left: 158px;
+    margin-top: 273px;
+    color: white;
+    font-weight: 900;
+    
 }
 
 .button {
@@ -148,13 +161,14 @@ header {
     background-color: #DCDCDC;
     border-radius: 50%;
     font-family: 'Amatic SC', cursive;
+    
 }
 
 
-.toggle {
-    margin-left: 90px;
-    margin-right: 20px;
-}
+/* .toggle {
+    margin-left: 60px;
+    margin-right: 10px;
+} */
 
 #turn {
     position: absolute;
@@ -162,10 +176,10 @@ header {
     color: #990000;
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
-    height: 30px;
-    width: 50px;
-    margin-left: 90px;
-    margin-top: 170px;
+    height: 35px;
+    width: 65px;
+    margin-left: 140px;
+    margin-top: 235px;
     text-align: center;
     vertical-align: middle;
     line-height: 30px;
