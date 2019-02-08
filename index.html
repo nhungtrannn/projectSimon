@@ -9,20 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script defer src="js/main.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <header>A Memory Game</header>
+        <header>Sid, the Austin Dog Mayor</header>
+
+        <main>
+            <img src="https://i.imgur.com/R8oF4eR.png" style="width:35px;height:35px;"> 
+            <a class="insta" href="https://www.instagram.com/myregalbeagle/">@myregalbeagle</a>
+        </main>
 
             <div id="outercircle">
-                <div id="topleft" class="blue" type="button"></div>
+                <div id="topleft" class="press blue" type="button"></div>
 
-                <div id="topright" class="red" type="button"></div>
+                <div id="topright" class="press red" type="button"></div>
 
-                <div id="bottomleft" class="green" type="button"></div>
+                <div id="bottomleft" class="press green" type="button"></div>
 
-                <div id="bottomright" class="yellow" type="button"></div>
+                <div id="bottomright" class="press yellow" type="button"></div>
 
                 <div id="innercircle">
                         <img class="image" src="https://i.imgur.com/X32z6FA.jpg"
@@ -40,7 +51,7 @@
                         <span>POWER</span><span>STRICT</span>
                     </div> -->
 
-                    <div id="turn"></div>
+                    <div id="turn">00</div>
 
                     <div class="label2">COUNT</div>
 
